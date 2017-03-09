@@ -15,10 +15,10 @@ eureka:
 spring:
   profiles: docker
   zipkin:
-    baseUrl: http://tracing-server.Pet-Clinic.local
+    baseUrl: ${TRACING_URL}/eureka/
 server:
   port: 8083
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://discovery-server.Pet-Clinic.local/eureka/
+      defaultZone: ${EUREKA_URL}/eureka/
