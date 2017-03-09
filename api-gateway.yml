@@ -21,8 +21,8 @@ spring.messages.basename: messages/messages
 spring:
   profiles: docker
   zipkin:
-    baseUrl: ${TRACING_URL}
+    baseUrl: http://${TRACING_URL}
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_URL}/eureka/
+      defaultZone: http://${EUREKA_URL}/eureka/
