@@ -23,5 +23,5 @@ eureka:
     serviceUrl:
       defaultZone: http://${EUREKA_URL}/eureka/
   instance:
-    hostname: ${VETS_URL}
+    hostname: http://${VETS_URL}
     nonSecurePort: ${VETS_PORT}
