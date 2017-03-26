@@ -25,4 +25,4 @@ eureka:
   instance:
     prefer-ip-address: true
     ip-address: ${NIRMATA_HOST_ADDRESS}
-    port: 5003
+    nonSecurePort: 5003
