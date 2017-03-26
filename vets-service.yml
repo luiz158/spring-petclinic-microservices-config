@@ -23,4 +23,4 @@ eureka:
     serviceUrl:
       defaultZone: http://${EUREKA_URL}/eureka/
   instance:
-    hostname: http://${NIRMATA_HOST_ADDRESS}:${NIRMATA_SERVICE_PORTS.HTTP}
+    hostname: http://${NIRMATA_HOST_ADDRESS}:${NIRMATA_SERVICE_PORTS}
