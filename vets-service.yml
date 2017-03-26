@@ -23,5 +23,5 @@ eureka:
     serviceUrl:
       defaultZone: http://${EUREKA_URL}/eureka/
   instance:
-    preferIpAddress: true
-    leaseRenewalIntervalInSeconds: 10
+    hostname: ${NIRMATA_HOST_ADDRESS}
+    nonSecurePort: ${NIRMATA_SERVICE_PORTS.HTTP}
