@@ -24,4 +24,3 @@ eureka:
       defaultZone: http://${EUREKA_URL}/eureka/
   instance:
     prefer-ip-address: true
-    ip-address: ${VETS_URL}
