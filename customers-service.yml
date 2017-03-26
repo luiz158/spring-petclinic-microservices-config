@@ -16,3 +16,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://${EUREKA_URL}/eureka/
+  instance:
+    prefer-ip-address: true
+    ip-address: ${NIRMATA_HOST_ADDRESS}
+    nonSecurePort: 8081
