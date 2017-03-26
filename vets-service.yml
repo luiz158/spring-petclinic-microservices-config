@@ -23,5 +23,5 @@ eureka:
     serviceUrl:
       defaultZone: http://${EUREKA_URL}/eureka/
   instance:
-    hostname: http://${VETS_URL}
-    nonSecurePort: ${VETS_PORT}
+    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 10
